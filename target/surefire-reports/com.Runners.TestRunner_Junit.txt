@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.Runners.TestRunner_Junit
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.387 s <<< FAILURE! - in com.Runners.TestRunner_Junit
+initializationError(com.Runners.TestRunner_Junit)  Time elapsed: 0.021 s  <<< ERROR!
+java.lang.IllegalArgumentException:  is not valid. Try <uri or path>/<name>.feature[:LINE]*
+Caused by: java.lang.IllegalArgumentException: featureIdentifier may not be empty
+
