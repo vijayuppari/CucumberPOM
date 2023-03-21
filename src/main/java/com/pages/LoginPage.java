@@ -46,6 +46,7 @@ public class LoginPage {
         driver.findElement(username).sendKeys(uname);
         driver.findElement(password).sendKeys(pass);
         driver.findElement(terms).click();
+        driver.findElement(signInBtn).click();
         return new ShoppingPage(driver);
 
     }

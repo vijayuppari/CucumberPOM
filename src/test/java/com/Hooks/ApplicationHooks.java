@@ -35,7 +35,7 @@ public class ApplicationHooks {
     @After(order = 0)
     public void quitbrowser(){
        DriverFactory.getDriver().quit();
-        // driver.quit();
+         //driver.quit();
     }
     @After(order = 1)
     public void tearDown(Scenario scenario){
